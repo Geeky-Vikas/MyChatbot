@@ -1,0 +1,3229 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you?",
+        "What's up?",
+        "How's it going?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How may I help you today?",
+        "Hey! What can I do for you?",
+        "I'm doing well, thank you! How about you?",
+        "Great! How can I assist you today?",
+        "Everything is going well. How can I help you?"
+      ]
+    },
+    {
+      "tag": "good_morning",
+      "patterns": [
+        "Good morning",
+        "Morning!",
+        "Hey, morning",
+        "Good day"
+      ],
+      "responses": [
+        "Good morning! How can I assist you today?",
+        "Morning! How may I help you?",
+        "Hello! Have a great morning!"
+      ]
+    },
+    {
+      "tag": "good_afternoon",
+      "patterns": [
+        "Good afternoon",
+        "Afternoon!",
+        "Hey, afternoon",
+        "good after noon",
+        "Good day"
+      ],
+      "responses": [
+        "Good afternoon! How can I assist you?",
+        "Afternoon! How may I help you?",
+        "Hello! Have a great afternoon!"
+      ]
+    },
+    {
+      "tag": "good_evening",
+      "patterns": [
+        "Good evening",
+        "Evening!",
+        "Hey, evening"
+      ],
+      "responses": [
+        "Good evening! How can I assist you?",
+        "Evening! How may I help you?",
+        "Hello! Have a great evening!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "good bye",
+        "See you later",
+        "nice to meet you",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "thanks for asking question"
+      ]
+    },
+    {
+      "tag": "NIELIT courses",
+      "patterns": [
+        "Help me Juvi Bot",
+        "What else Nielit courses",
+        "explain me nielit courses",
+        "Show me nielit course",
+        "waht can you do for me",
+        "Hi JuviBot",
+        "Please Say JuviG",
+        "what type courses",
+        "which courses provide"
+      ],
+      "responses": [
+        "We offer these courses\n1.Short-term course\n2.Long-term Course(Hardware/IT Courses)\n3.NSQF Courses"
+      ]
+    },
+    {
+    "tag": "Long Term Courses",
+    "patterns": [
+      "What is the Long Term Course ",
+      "Which else courses are in Long Term Course ",
+      "Show me Long Term Course",
+      "Tell me Long Term Course"
+    ],
+    "responses": [
+      "Long Term Course\n*.O level(IT) Course.\n*.A level(IT) Course.\n*.CMH -T O level(H/w Maintenace) Course.\n Please know more visit website or Nielit Center<a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "short Term Courses",
+    "patterns": [
+      "What is the Short Term Course ",
+      "Which else courses are in Short Term Course ",
+      "Show me Short Term Course",
+      "Tell me Short Term Course"
+    ],
+    "responses": [
+      "Short Term Course\n*. Certificate in Multimedia developer\n*. CCC course \n * CCAAPA Course \n*.Data Entry and Office Assistant\n*.Certificate in web Developer\n*.Certificate in Artificial Intelligence Associate.\n Please know more visit website or Nielit Center<a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "full form CCAAPA",
+    "patterns": [
+      "What is the full form CCAAPA ",
+      "What is the meaning CCAAPA ",
+      "Show me full form CCAAPA",
+      "Tell me about CCAAPA"
+    ],
+    "responses": [
+      "Full Form of CCAAPA that is Certified Computer Application Accounting and Publishing Assistant (CCAAPA)"
+    ]
+  },
+  {
+    "tag": "Multimedia developer",
+    "patterns": [
+      "What is the Multimedia developer ",
+      "explain Multimedia developer ",
+      "Show me Multimedia developer",
+      "Tell me Multimedia developer"
+    ],
+    "responses": [
+      "Course Name: Certificate in Multimedia developer\n* Eligibility: Basic knowledge of Computer+10th pass\n* Duration: 1.5 month/200hrs for fee 19512/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Free for SC/ST. "
+    ]
+  },
+  {
+    "tag": "CCC course",
+    "patterns": [
+      "What is the CCC course ",
+      "explain CCC course ",
+      "Show me CCC course",
+      "Tell me CCC course"
+    ],
+    "responses": [
+      "Course Name: Certificate in CCC course\n* Eligibility: Basic knowledge of Computer+10th pass\n* Duration: 2 month/80hrs for fee 5470/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Fee 1812/- for SC/ST. "
+    ]
+  },
+  {
+    "tag": "fee of ccc",
+    "patterns": [
+      "What is the fee of CCC  ",
+      "explain fee of CCC  ",
+      "Show me fee of CCC ",
+      "Tell me fee of CCC "
+    ],
+    "responses": [
+      "Course Name: Certificate in CCC course fee 5470/-\n ** Fee 1812/- for SC/ST.",
+      "CCC fee 5470/-\n *Fee 1812/- for SC/ST."
+    ]
+  },
+  {
+    "tag": "duration of ccc",
+    "patterns": [
+      "What is the duration of CCC course",
+      "explain duration of CCC course",
+      "Show me duration of CCC course",
+      "Tell me duration of CCC course"
+    ],
+    "responses": [
+      "The Duration of CCC is 2 months",
+      "Duration: 2 months/80hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of ccc",
+    "patterns": [
+      "What is the eligibility of CCC course",
+      "explain eligibility of CCC course",
+      "Show me eligibility of CCC course",
+      "Tell me eligibility of CCC course"
+    ],
+    "responses": [
+      "You should have atleast 10th pass/",
+      "Eligibility :- 10th pass"
+    ]
+  },
+  {
+    "tag": "CCAAPA course",
+    "patterns": [
+      "What is the CCAAPA course ",
+      "explain CCAAPA course ",
+      "Show me CCAAPA course",
+      "Tell me CCAAPA course"
+    ],
+    "responses": [
+      "Course Name: Certificate in CCAAPA course\n* Eligibility: Basic knowledge of Tally+10th pass\n* Duration: 4.5 month/360hrs for fee 17270/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Fee 2402/- for SC/ST. "
+    ]
+  },
+  {
+    "tag": "Data Entry",
+    "patterns": [
+      "What is the Data Entry ",
+      "explain Data Entry ",
+      "Show me Data Entry",
+      "Tell me Data Entry"
+    ],
+    "responses": [
+      "Course Name: Certificate in Data Entry(office Assistant)\n* Eligibility: Basic knowledge of Computer+10th pass\n* Duration: 3.5 months/210hrs for fee 9246/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Fee 1812/- for SC/ST. "
+    ]
+  },
+  {
+    "tag": "fee of data entry",
+    "patterns": [
+      "What is the fee of data entry(office assistant)  ",
+      "explain fee of data entry(office assistant)  ",
+      "Show me fee of data entry(office assistant) ",
+      "Tell me fee of data entry(office assistant) "
+    ],
+    "responses": [
+      "Course Name: Certificate in data entry(office assistant) course fee 9246/-\n ** Fee 1812/- for SC/ST.",
+      "CCC fee 5470/-\n *Fee 1812/- for SC/ST.\n please contact nielit delhi"
+
+    ]
+  },
+  {
+    "tag": "duration of data entry",
+    "patterns": [
+      "What is the duration of data entry(office assistant) course",
+      "explain duration of data entry(office assistant) course",
+      "Show me duration of data entry(office assistant) course",
+      "Tell me duration of data entry(office assistant) course"
+    ],
+    "responses": [
+      "The Duration of data entry(office assistant) is 3.5 months",
+      "Duration: 3.5 months/210hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of data entry(office assistant)",
+    "patterns": [
+      "What is the eligibility of data entry(office assistant) course",
+      "explain eligibility of data entry(office assistant) course",
+      "Show me eligibility of data entry(office assistant) course",
+      "Tell me eligibility of data entry(office assistant) course"
+    ],
+    "responses": [
+      "You should have atleast 10th pass and basic knowledge of computer",
+      "Eligibility :- 10th pass"
+    ]
+  },
+  {
+    "tag": "Web Developer",
+    "patterns": [
+      "What is the Web Developer ",
+      "explain Web Developer ",
+      "Show me Web Developer",
+      "Tell me Web Developer"
+    ],
+    "responses": [
+      "Course Name: Certificate in Web Developer\n* Eligibility: BE/Btech/BCA/BSc(CS)/any degree in CS/IT\n* Duration: 3.5 months/210hrs for fee 12810/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Fee 1812/- for SC/ST. "
+    ]
+  },
+  {
+    "tag": "fee of web developer",
+    "patterns": [
+      "What is the fee of web developer  ",
+      "explain fee of web developer  ",
+      "Show me fee of web developer ",
+      "Tell me fee of web developer "
+    ],
+    "responses": [
+      "Course Name: Certificate in web developer course fee 12810/-\n ** Fee 1812/- for SC/ST.",
+      "CCC fee 12810/-\n *Fee 1812/- for SC/ST.\n please contact nielit delhi"
+
+    ]
+  },
+  {
+    "tag": "duration of web developer",
+    "patterns": [
+      "What is the duration of web developer course",
+      "explain duration of web developer course",
+      "Show me duration of web developer course",
+      "Tell me duration of web developer course"
+    ],
+    "responses": [
+      "The Duration of web developer is 3.5 months",
+      "Duration: 3.5 months/210hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of web developer",
+    "patterns": [
+      "What is the eligibility of web developer course",
+      "explain eligibility of web developer course",
+      "Show me eligibility of web developer course",
+      "Tell me eligibility of web developer course"
+    ],
+    "responses": [
+      "You should have computer background like B.tech/BCA/B.Sc(Cs/it)/O level/A level",
+      "Eligibility :- Required/ Prequisites B.tech/BCA/B.Sc(Cs/it)/O level/A level"
+    ]
+  },
+  
+  {
+    "tag": "Artificial intelligence associate",
+    "patterns": [
+      "What is the Artificial intelligence associate ",
+      "explain Artificial intelligence associate ",
+      "Show me Artificial intelligence associate",
+      "Tell me Artificial intelligence associate"
+    ],
+    "responses": [
+      "Course Name: Certificate in Artificial intelligence associate\n* Eligibility: BE/Btech/BCA/BSc(CS)/any degree in CS/IT\n* Duration: 6 months/240hrs for fee 14296/-\n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a>\n** Fee 1812/- for SC/ST. "
+    ]
+  },
+  {
+    "tag": "fee of Artificial Intelligence associate",
+    "patterns": [
+      "What is the fee of Artificial Intelligence associate  ",
+      "explain fee of Artificial Intelligence associate  ",
+      "Show me fee of Artificial Intelligence associate ",
+      "Tell me fee of Artificial Intelligence associate "
+    ],
+    "responses": [
+      "Course Name: Certificate in Artificial Intelligence associate fee 14296/-\n ** Fee 1812/- for SC/ST.",
+      "CCC fee 14296/-\n *Fee 2024/- for SC/ST.\n please contact nielit delhi"
+
+    ]
+  },
+  {
+    "tag": "duration of Artificial Intelligence associate",
+    "patterns": [
+      "What is the duration of Artificial Intelligence associate",
+      "explain duration of Artificial Intelligence associate",
+      "Show me duration of Artificial Intelligence associate",
+      "Tell me duration of Artificial Intelligence associate"
+    ],
+    "responses": [
+      "The Duration of web developer is 6 months",
+      "Duration: 6 months/240hrs"
+    ]
+  },
+  {
+    "tag": "eligibility Artificial Intelligence associate",
+    "patterns": [
+      "What is the eligibility of Artificial Intelligence associate",
+      "explain eligibility of Artificial Intelligence associate",
+      "Show me eligibility of Artificial Intelligence associate",
+      "Tell me eligibility of Artificial Intelligence associate"
+    ],
+    "responses": [
+      "You should have computer background like B.tech/BCA/B.Sc(Cs/it)/O level/A level",
+      "Eligibility :- Required/ Prequisites B.tech/BCA/B.Sc(Cs/it)/O level/A level"
+    ]
+  },
+  
+  {
+    "tag": "Summer Training",
+    "patterns": [
+      "What is the Summer Training Course ",
+      "Which else courses are in Summer Training ",
+      "Show me Summer Training Courses",
+      "Tell me Summer Training Coruse"
+    ],
+    "responses": [
+      "Summer Training Course\n*. Programming through Python\n*. Certificate in Web designing\n * Web app Development using JAVA \n*. Cyber Security\n*. Data Science and ML using Python\n*. Cloud Computing \n*.SQL Server Developer\n*. IOT using Arduino\n*. "
+    ]
+  },
+  {
+    "tag": "Web app Development using JAVA",
+    "patterns": [
+      "What is the Web app Development using JAVA ",
+      "explain Web app Development using JAVA ",
+      "Show me Web app Development using JAVA",
+      "Tell me Web app Development using JAVA"
+    ],
+    "responses": [
+      "Course Name: Web app Development using JAVA\n* Eligibility: Basic knowledge of any Programming language\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/- \n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of web app development using Java",
+    "patterns": [
+      "What is the fee of web app development using Java  ",
+      "explain fee of web app development using Java  ",
+      "Show me fee of web app development using Java ",
+      "Tell me fee of web app development using Java "
+    ],
+    "responses": [
+      "Course Name: Certificate in web app development using Java course fee 4000/-\n ** Free for SC/ST.",
+      "CCC fee 4000/-\n *Free/- for SC/ST.\n please contact nielit delhi"
+
+    ]
+  },
+  {
+    "tag": "duration of web app development using Java",
+    "patterns": [
+      "What is the duration of web developapp development using Java",
+      "explain duration of web developapp development using Java",
+      "Show me duration of web developapp development using Java",
+      "Tell me duration of web developapp development using Java"
+    ],
+    "responses": [
+      "The Duration of web developer is 1 month",
+      "Duration: 1 month/40hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of web app development using Java",
+    "patterns": [
+      "What is the eligibility of web developapp development using Java",
+      "explain eligibility of web developapp development using Java",
+      "Show me eligibility of web developapp development using Java",
+      "Tell me eligibility of web developapp development using Java"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language. like C/C++ language",
+      "Eligibility :- Basic Knowledge of Computer + any Programming language like c/c++ etc"
+    ]
+  },
+  {
+    "tag": "Programming through Python",
+    "patterns": [
+      "What is the Programming through Python ",
+      "explain Programming through Python ",
+      "Show me Programming through Python",
+      "Tell me Programming through Python"
+    ],
+    "responses": [
+      "Course Name: Programming through Python\n* Eligibility : Basic knowledge of Computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/- \n*if you want to know more info please call us or visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of Python",
+    "patterns": [
+      "What is the fee of Programming through Python  ",
+      "explain fee of Programming through Python  ",
+      "Show me fee of Programming through Python ",
+      "Tell me fee of Programming through Python "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+
+    ]
+  },
+  {
+    "tag": "duration of Python",
+    "patterns": [
+      "What is the duration of Programming through Python",
+      "explain duration of Programming through Python",
+      "Show me duration of Programming through Python",
+      "Tell me duration of Programming through Python"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of Python",
+    "patterns": [
+      "What is the eligibility of Programming through Python",
+      "explain eligibility of Programming through Python",
+      "Show me eligibility of Programming through Python",
+      "Tell me eligibility of Programming through Python"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of Computer",
+      "Eligibility :You should have atleast Basic knowledge of Computer"
+    ]
+  },
+  {
+    "tag": "Certificate in Web designing",
+    "patterns": [
+      "What is the Certificate in Web designing ",
+      "explain Certificate in Web designing ",
+      "Show me Certificate in Web designing",
+      "Tell me Certificate in Web designing"
+    ],
+    "responses": [
+      "Course Name: Certificate in Web designing\n* Eligibility : Basic knowledge of Computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of web designing",
+    "patterns": [
+      "What is the fee Web designing  ",
+      "explain fee Web designing  ",
+      "Show me fee Web designing ",
+      "Tell me fee Web designing "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+
+    ]
+  },
+  {
+    "tag": "duration of web designing",
+    "patterns": [
+      "What is the duration Web designing",
+      "explain duration Web designing",
+      "Show me duration Web designing",
+      "Tell me duration Web designing"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of web designing",
+    "patterns": [
+      "What is the eligibility Web designing",
+      "explain eligibility Web designing",
+      "Show me eligibility Web designing",
+      "Tell me eligibility Web designing"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of Computer",
+      "Eligibility :You should have atleast Basic knowledge of Computer"
+    ]
+  },
+  {
+    "tag": "Cyber Security Course",
+    "patterns": [
+      "What is the Certificate in Cyber Security",
+      "explain Certificate in Cyber Security ",
+      "Show me Cyber Security course",
+      "Tell me Cyber Security course"
+    ],
+    "responses": [
+      "Course Name: Certificate in Cyber Security\n* Eligibility : Basic knowledge of Computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of Cyber Security ",
+    "patterns": [
+      "What is the fee Cyber Security Course  ",
+      "explain fee Cyber Security Course  ",
+      "Show me fee Cyber Security Course ",
+      "Tell me fee Cyber Security Course "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+
+    ]
+  },
+  {
+    "tag": "duration of Cyber Security ",
+    "patterns": [
+      "What is the duration Cyber Security Course",
+      "explain duration Cyber Security Course",
+      "Show me duration Cyber Security Course",
+      "Tell me duration Cyber Security Course"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs"
+    ]
+  },
+  {
+    "tag": "eligibility of Cyber Security ",
+    "patterns": [
+      "What is the eligibility Cyber Security Course",
+      "explain eligibility Cyber Security Course",
+      "Show me eligibility Cyber Security Course",
+      "Tell me eligibility Cyber Security Course"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of Computer",
+      "Eligibility :You should have atleast Basic knowledge of Computer"
+    ]
+  },
+  {
+    "tag": "Data Science and Machine Learning",
+    "patterns": [
+      "What is the Data Science and Machine Learning",
+      "explain Data Science and Machine Learning ",
+      "Show me Data Science and Machine Learning",
+      "Tell me Data Science and Machine Learning"
+    ],
+    "responses": [
+      "Course Name: Science and Machine Learning\n* Eligibility : Basic knowledge of Python/R\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of data science ",
+    "patterns": [
+      "What is the fee data science and machine learning  ",
+      "explain fee data science and machine learning  ",
+      "Show me fee data science and machine learning ",
+      "Tell me fee data science and machine learning "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of data science ",
+    "patterns": [
+      "What is the duration data science and machine learning",
+      "explain duration data science and machine learning",
+      "Show me duration data science and machine learning",
+      "Tell me duration data science and machine learning"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of data science",
+    "patterns": [
+      "What is the eligibility data science and machine learning",
+      "explain eligibility data science and machine learning",
+      "Show me eligibility data science and machine learning",
+      "Tell me eligibility data science and machine learning"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of Core Python ",
+      "Eligibility :You should have atleast Basic knowledge of Python language "
+    ]
+  },
+  {
+    "tag": "Cloud Computing Course",
+    "patterns": [
+      "What is the Cloud Computing Course",
+      "explain Cloud Computing Course ",
+      "Show me Cloud Computing Course",
+      "Tell me Cloud Computing Course"
+    ],
+    "responses": [
+      "Course Name: Cloud Computing Course\n* Eligibility : Basic knowledge of any programming/computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of cloud computing ",
+    "patterns": [
+      "What is the fee cloud computing  ",
+      "explain fee cloud computing  ",
+      "Show me fee cloud computing ",
+      "Tell me fee cloud computing "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of cloud computing ",
+    "patterns": [
+      "What is the duration cloud computing",
+      "explain duration cloud computing",
+      "Show me duration cloud computing",
+      "Tell me duration cloud computing"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of cloud computing",
+    "patterns": [
+      "What is the eligibility cloud computing",
+      "explain eligibility cloud computing",
+      "Show me eligibility cloud computing",
+      "Tell me eligibility cloud computing"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language ",
+      "Eligibility :You should have atleast Basic knowledge of any programming background "
+    ]
+  },
+  {
+    "tag": "SQL Server Developer",
+    "patterns": [
+      "What is the SQL Server Developer Course",
+      "explain SQL Server Developer Course ",
+      "Show me SQL Server Developer Course",
+      "Tell me SQL Server Developer Course"
+    ],
+    "responses": [
+      "Course N SQL Server Developer Course\n* Eligibility : Basic knowledge of any programming/computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of SQL Server Developer ",
+    "patterns": [
+      "What is the fee SQL Server Developer  ",
+      "explain fee SQL Server Developer  ",
+      "Show me fee SQL Server Developer ",
+      "Tell me fee SQL Server Developer "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of SQL Server Developer ",
+    "patterns": [
+      "What is the duration SQL Server Developer",
+      "explain duration SQL Server Developer",
+      "Show me duration SQL Server Developer",
+      "Tell me duration SQL Server Developer"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of SQL Server Developer ",
+    "patterns": [
+      "What is the eligibility SQL Server Developer",
+      "explain eligibility SQL Server Developer",
+      "Show me eligibility SQL Server Developer",
+      "Tell me eligibility SQL Server Developer"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "IoT using Arduino Course",
+    "patterns": [
+      "What is the IoT using Arduino Course",
+      "explain IoT using Arduino Course",
+      "Show me IoT using Arduino Course",
+      "Tell me IoT using Arduino Course"
+    ],
+    "responses": [
+      "Course Name: IoT using Arduino Course\n* Eligibility : Basic knowledge of any programming/computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of IoT Arduino Course ",
+    "patterns": [
+      "What is the fee IoT Arduino Course  ",
+      "explain fee IoT Arduino Course  ",
+      "Show me fee IoT Arduino Course ",
+      "Tell me fee IoT Arduino Course "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of IoT Arduino Course ",
+    "patterns": [
+      "What is the duration IoT Arduino Course",
+      "explain duration IoT Arduino Course",
+      "Show me duration IoT Arduino Course",
+      "Tell me duration IoT Arduino Course"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of IoT Arduino Course ",
+    "patterns": [
+      "What is the eligibility IoT Arduino Course",
+      "explain eligibility IoT Arduino Course",
+      "Show me eligibility IoT Arduino Course",
+      "Tell me eligibility IoT Arduino Course"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "Hardware Maintenace",
+    "patterns": [
+      "What is the Hardware Maintenace",
+      "explain Hardware Maintenace",
+      "Show me Hardware Maintenace",
+      "Tell me Hardware Maintenace"
+    ],
+    "responses": [
+      "Course Name: Hardware Maintenace\n* Eligibility : Basic knowledge of computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of Hardware Maintenance ",
+    "patterns": [
+      "What is the fee Hardware Maintenance  ",
+      "explain fee Hardware Maintenance  ",
+      "Show me fee Hardware Maintenance ",
+      "Tell me fee Hardware Maintenance "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of Hardware Maintenance ",
+    "patterns": [
+      "What is the duration Hardware Maintenance",
+      "explain duration Hardware Maintenance",
+      "Show me duration Hardware Maintenance",
+      "Tell me duration Hardware Maintenance"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of Hardware Maintenance ",
+    "patterns": [
+      "What is the eligibility Hardware Maintenance",
+      "explain eligibility Hardware Maintenance",
+      "Show me eligibility Hardware Maintenance",
+      "Tell me eligibility Hardware Maintenance"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "Tally Course",
+    "patterns": [
+      "What is the Tally Course",
+      "explain Tally Course",
+      "Show me Tally Course",
+      "Tell me Tally Course"
+    ],
+    "responses": [
+      "Course Name: Tally Course\n* Eligibility : Basic knowledge of computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of Tally Course ",
+    "patterns": [
+      "What is the fee Tally Course  ",
+      "explain fee Tally Course  ",
+      "Show me fee Tally Course ",
+      "Tell me fee Tally Course "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of Tally Course ",
+    "patterns": [
+      "What is the duration Tally Course",
+      "explain duration Tally Course",
+      "Show me duration Tally Course",
+      "Tell me duration Tally Course"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of Tally Course ",
+    "patterns": [
+      "What is the eligibility Tally Course",
+      "explain eligibility Tally Course",
+      "Show me eligibility Tally Course",
+      "Tell me eligibility Tally Course"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "Photoshop Course",
+    "patterns": [
+      "What is the Photoshop Course",
+      "explain Photoshop Course",
+      "Show me Photoshop Course",
+      "Tell me Photoshop Course"
+    ],
+    "responses": [
+      "Course Name: Photoshop Course\n* Eligibility : Basic knowledge of computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of Photoshop course ",
+    "patterns": [
+      "What is the fee Photoshop course  ",
+      "explain fee Photoshop course  ",
+      "Show me fee Photoshop course ",
+      "Tell me fee Photoshop course "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 months/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of Photoshop course ",
+    "patterns": [
+      "What is the duration Photoshop course",
+      "explain duration Photoshop course",
+      "Show me duration Photoshop course",
+      "Tell me duration Photoshop course"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 months/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of Photoshop course ",
+    "patterns": [
+      "What is the eligibility Photoshop course",
+      "explain eligibility Photoshop course",
+      "Show me eligibility Photoshop course",
+      "Tell me eligibility Photoshop course"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "Digital Marketing Course",
+    "patterns": [
+      "What is the Digital Marketing Course",
+      "explain Digital Marketing Course",
+      "Show me Digital Marketing Course",
+      "Tell me Digital Marketing Course"
+    ],
+    "responses": [
+      "Course Name: Digital Marketing Course\n* Eligibility : Basic knowledge of computer\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of digital marketing ",
+    "patterns": [
+      "What is the fee digital marketing course  ",
+      "explain fee digital marketing course  ",
+      "Show me fee digital marketing course ",
+      "Tell me fee digital marketing course "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 months/60hrs for fee 6000/-\n * 2 months/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of digital marketing ",
+    "patterns": [
+      "What is the duration digital marketing course",
+      "explain duration digital marketing course",
+      "Show me duration digital marketing course",
+      "Tell me duration digital marketing course"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of digital marketing ",
+    "patterns": [
+      "What is the eligibility digital marketing course",
+      "explain eligibility digital marketing course",
+      "Show me eligibility digital marketing course",
+      "Tell me eligibility digital marketing course"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "MS office Automation Certication",
+    "patterns": [
+      "What is the MS office Automation Certication",
+      "explain MS office Automation Certication",
+      "Show me MS office Automation Certication",
+      "Tell me MS office Automation Certication"
+    ],
+    "responses": [
+      "Course Name: MS office Automation Certication\n* Eligibility : Basic knowledge of computer/10th pass\n* Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 month/80hrs for fee 4000-/- \n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> "
+    ]
+  },
+  {
+    "tag": "fee of MS Office ",
+    "patterns": [
+      "What is the fee MS Office  ",
+      "explain fee MS Office  ",
+      "Show me fee MS Office ",
+      "Tell me fee MS Office "
+    ],
+    "responses": [
+      "Duration and fees: 1 month/40hrs for fee 4000/-\n* 1.5 months/60hrs for fee 6000/-\n * 2 month/80hrs for fee 8000/-"
+
+    ]
+  },
+  {
+    "tag": "duration of MS Office ",
+    "patterns": [
+      "What is the duration MS Office",
+      "explain duration MS Office",
+      "Show me duration MS Office",
+      "Tell me duration MS Office"
+    ],
+    "responses": [
+      "Duration: 1 month/40hrs for fee 4000/-\n* 1.5 month/60hrs for fee 6000/-\n * 2 months/80hrs for fee 8000/-"
+    ]
+  },
+  {
+    "tag": "eligibility of MS Office ",
+    "patterns": [
+      "What is the eligibility MS Office",
+      "explain eligibility MS Office",
+      "Show me eligibility MS Office",
+      "Tell me eligibility MS Office"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of computer +10th pass",
+      "Eligibility :You should have atleast Basic knowledge of computer + 10th pass"
+    ]
+  },
+  {
+    "tag": "O Level",
+    "patterns": [
+      "What is the O Level",
+      "explain O Level",
+      "Show me O Level",
+      "Tell me O Level"
+    ],
+    "responses": [
+      "Course Name: O Level\n* Eligibility : 12th Pass/ITI 1 Yrs Certificate after 10th/or Graduation\n* Duration: 1 Yrs/540hrs for fee 23480/-\n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> \n**SC/ST for Free"
+    ]
+  },
+  {
+    "tag": "fee of O level ",
+    "patterns": [
+      "What is the fee O level  ",
+      "explain fee O level  ",
+      "Show me fee O level ",
+      "Tell me fee O level "
+    ],
+    "responses": [
+      "Eligibility : 12th Pass/ITI 1 Yrs Certificate after 10th/or Graduation"
+
+    ]
+  },
+  {
+    "tag": "duration of O level ",
+    "patterns": [
+      "What is the duration O level",
+      "explain duration O level",
+      "Show me duration O level",
+      "Tell me duration O level"
+    ],
+    "responses": [
+      "Duration :  1 Yrs/540hrs for fee 23480/-"
+    ]
+  },
+  {
+    "tag": "eligibility of O level ",
+    "patterns": [
+      "What is the eligibility O level",
+      "explain eligibility O level",
+      "Show me eligibility O level",
+      "Tell me eligibility O level"
+    ],
+    "responses": [
+      "You should have atleast Basic knowledge of any programming language",
+      "Eligibility :You should have atleast Basic knowledge of any programming language"
+    ]
+  },
+  {
+    "tag": "A Level",
+    "patterns": [
+      "What is the A Level",
+      "explain A Level",
+      "Show me A Level",
+      "Tell me A Level"
+    ],
+    "responses": [
+      "Course Name: 'A' Level\n* Eligibility : Graduate/O level/1 Yrs diploma after 12th/or Graduation\n* Duration: 1.5 Yrs/1620hrs for fee 45800/-\n* 1 Yrs/1080Hrs for O level and fee 30800/-\n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> \n**SC/ST for Free"
+    ]
+  },
+  {
+    "tag": "O Level with Hardware Maintenance or CHM-T O level",
+    "patterns": [
+      "What is the O Level with Hardware Maintenance",
+      "What is the CHM-T O level",
+      "explain O Level with Hardware Maintenancel",
+      "explain CHM-T O level",
+      "Show me O Level with Hardware Maintenance",
+      "Show me CHM-T O level",
+      "Tell me O Level with Hardware Maintenance",
+      "Tell me CHM-T O level"
+    ],
+    "responses": [
+      "Course Name: CHM-O Level (H/W Maintenance)\n* Eligibility : 12th Pass/ITI 1 Yrs Certificate after 10th\n* Duration: 1 Yrs/600hrs for fee 30536/-\n*if you want to know more info please visit offcial website <a>https://www.nielit.gov.in/delhi/</a> \n**SC/ST for Free"
+    ]
+  },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Can you tell me your name?",
+        "May I know your name?",
+        "What should I call you?"
+      ],
+      "responses": [
+        "I am JuviBot, your virtual assistant.",
+        "You can call me JuviBot.",
+        "My name is JuviBot.",
+        "I go by the name JuviBot."
+      ]
+    },
+    {
+      "tag": "intro",
+      "patterns": [
+        "Tell me about yourself.",
+        "Who are you?",
+        "What do you do?",
+        "What is your purpose?",
+        "Introduce yourself."
+      ],
+      "responses": [
+        "I am an AI-powered virtual assistant designed to provide information about NIELIT DELHI CENTER.",
+        "I am a virtual assistant programmed to help and provide information about NIELIT DELHI CENTER.",
+        "I'm an AI-powered assistant here to assist you with any questions about NIELIT DELHI CENTER.",
+        "I am an AI language model designed to provide support and answer your queries about NIELIT DELHI CENTER."
+      ]
+    },
+    {
+      "tag": "made",
+      "patterns": [
+        "Who created you?",
+        "Who is your creator?",
+        "Who made you?",
+        "Who built you?",
+        "Who developed you?"
+      ],
+      "responses": [
+        "I was created by a name of engineer(developer) Mr. VikasG at NIELIT.",
+        "Mr. Vikas G is the brilliant minds at  AI. Era",
+        "I am a product of the hard work and innovation of the My Respectfully Mr. Vikas G at AI Era.",
+        "The credit for creating me goes to the talented individuals team of Vikas 😊",
+        "I don't have a specific individual creator, but I was developed by a team of experts at NIELIT."
+      ]
+    },
+    {
+      "tag": "funny_joke",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!",
+        "I have a joke for you: Why don't skeletons fight each other? They don't have the guts!",
+        "Here's a classic joke: Why did the bicycle fall over? Because it was two-tired!",
+        "How about this one: Why don't eggs tell jokes? Because they might crack up!",
+        "Here's a lighthearted joke for you: What do you call a fish wearing a crown? King Neptune!"
+      ]
+    },
+    {
+      "tag": "Artificial_Intelligence",
+      "patterns": [
+        "What is Artificial Intelligence?",
+        "How does Artificial Intelligence work?",
+        "Can you explain AI to me?",
+        "What are the applications of Artificial Intelligence?",
+        "Tell me more about Artificial Intelligence."
+      ],
+      "responses": [
+        "Artificial Intelligence is the simulation of human intelligence in machines that are programmed to think and learn like humans.",
+        "Artificial Intelligence involves creating intelligent machines that can perform tasks that typically require human intelligence.",
+        "AI utilizes various techniques to enable machines to perceive, reason, learn, and make decisions.",
+        "Some common applications of AI include virtual assistants, image recognition, natural language processing, and autonomous vehicles.",
+        "Artificial Intelligence is a vast field that encompasses various subfields like machine learning, deep learning, and natural language processing."
+      ]
+    },
+    {
+      "tag": "Machine Learning",
+      "patterns": [
+        "What is Machine Learning?",
+        "How does Machine Learning work?",
+        "Can you explain ML to me?",
+        "What are the applications of Machine Learning?",
+        "Tell me more about Machine Learning."
+      ],
+      "responses": [
+        "Machine Learning is a subset of Artificial Intelligence that focuses on enabling machines to learn and make predictions or decisions without being explicitly programmed.",
+        "Machine Learning algorithms learn from data and use that knowledge to make informed predictions or take actions.",
+        "ML involves training models on data, and these models can then make predictions or classify new data based on what they have learned.",
+        "Machine Learning finds applications in areas such as predictive analytics, recommendation systems, fraud detection, and image recognition.",
+        "Machine Learning techniques include supervised learning, unsupervised learning, and reinforcement learning."
+      ]
+    },
+    {
+      "tag": "Deep_Learning",
+      "patterns": [
+        "What is Deep Learning?",
+        "How does Deep Learning work?",
+        "Can you explain DL to me?",
+        "What are the applications of Deep Learning?",
+        "Tell me more about Deep Learning."
+      ],
+      "responses": [
+        "Deep Learning is a subfield of Machine Learning that uses artificial neural networks to model and understand complex patterns and relationships in data.",
+        "Deep Learning algorithms, inspired by the structure of the human brain, learn multiple levels of representations to extract meaningful insights from data.",
+        "DL involves training deep neural networks with multiple layers to learn and make predictions or decisions.",
+        "Deep Learning is widely used in tasks such as image and speech recognition, natural language processing, and autonomous systems.",
+        "Deep Learning architectures like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) are key components of many DL applications."
+      ]
+    },
+    {
+      "tag": "neural_networks",
+      "patterns": [
+        "What are Neural Networks?",
+        "How do Neural Networks work?",
+        "Can you explain Neural Networks to me?",
+        "What are the types of Neural Networks?",
+        "Tell me more about Neural Networks."
+      ],
+      "responses": [
+        "Neural Networks are a computational model inspired by the structure and function of the human brain.",
+        "Neural Networks consist of interconnected artificial neurons that work together to process and transmit information.",
+        "Neural Networks learn by adjusting the strengths of connections between neurons to improve their performance on a given task.",
+        "There are various types of Neural Networks, including feedforward neural networks, recurrent neural networks, and convolutional neural networks.",
+        "Neural Networks have found applications in tasks such as pattern recognition, time series analysis, and natural language processing."
+      ]
+    },
+    {
+      "tag": "Natural Language Processing",
+      "patterns": [
+        "What is Natural Language Processing (NLP)?",
+        "How does Natural Language Processing work?",
+        "Can you explain NLP to me?",
+        "What are the applications of NLP?",
+        "Tell me more about Natural Language Processing."
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a branch of AI that focuses on the interaction between computers and human language.",
+        "NLP involves enabling machines to understand, interpret, and generate human language in a way that is meaningful and useful.",
+        "NLP algorithms process and analyze text and speech data to extract information, perform sentiment analysis, and generate responses.",
+        "NLP finds applications in machine translation, chatbots, text summarization, sentiment analysis, and information extraction.",
+        "NLP techniques include tokenization, part-of-speech tagging, named entity recognition, and sentiment analysis."
+      ]
+    },
+    {
+      "tag": "Computer Science",
+      "patterns": [
+        "What is Computer Science?",
+        "Can you explain Computer Science to me?",
+        "What are the different areas of Computer Science?",
+        "Tell me more about Computer Science.",
+        "What do computer scientists do?"
+      ],
+      "responses": [
+        "Computer Science is the study of computers and computational systems, including their design, development, and application.",
+        "Computer Science involves the theory, algorithms, programming, and architecture that underlie computer systems.",
+        "Some areas of Computer Science include artificial intelligence, data structures, algorithms, computer graphics, and software engineering.",
+        "Computer Scientists work on developing and improving computer systems, solving complex problems, and designing innovative software solutions.",
+        "Computer Science plays a vital role in various industries and fields, such as technology, research, academia, and entrepreneurship."
+      ]
+    },
+    {
+      "tag": "Information Technology",
+      "patterns": [
+        "What is Information Technology (IT)?",
+        "Can you explain Information Technology to me?",
+        "What are the different areas of Information Technology?",
+        "Tell me more about Information Technology.",
+        "How does Information Technology impact businesses?"
+      ],
+      "responses": [
+        "Information Technology (IT) refers to the use, development, and management of computer-based systems to store, process, transmit, and retrieve information.",
+        "IT encompasses various areas such as computer networks, software development, database management, cybersecurity, and system administration.",
+        "Information Technology professionals work on implementing and maintaining computer systems, managing data, and ensuring network security.",
+        "IT has a significant impact on businesses, enabling efficient communication, streamlining processes, improving productivity, and facilitating data-driven decision making.",
+        "With the advancement of IT, businesses can leverage technology to gain a competitive edge, expand their reach, and innovate in their respective industries."
+      ]
+    },
+    {
+      "tag": "classification",
+      "patterns": [
+        "What is Classification in Machine Learning?",
+        "How does Classification work?",
+        "Can you explain Classification to me?",
+        "What are some examples of Classification problems?",
+        "Tell me more about Classification."
+      ],
+      "responses": [
+        "Classification is a type of Machine Learning task that involves categorizing data into predefined classes or categories.",
+        "In Classification, a model is trained on labeled data, and then it can predict the class of new, unseen data.",
+        "Examples of Classification problems include email spam detection, sentiment analysis, and image classification.",
+        "Classification algorithms aim to learn decision boundaries to separate different classes based on input features.",
+        "Popular Classification algorithms include Logistic Regression, Support Vector Machines, and Decision Trees."
+      ]
+    },
+    {
+      "tag": "regression",
+      "patterns": [
+        "What is Regression in Machine Learning?",
+        "How does Regression work?",
+        "Can you explain Regression to me?",
+        "What are some examples of Regression problems?",
+        "Tell me more about Regression."
+      ],
+      "responses": [
+        "Regression is a type of Machine Learning task that involves predicting continuous numerical values.",
+        "In Regression, a model is trained on labeled data to learn the relationships between input features and target variables.",
+        "Examples of Regression problems include predicting housing prices, stock market forecasting, and temperature prediction.",
+        "Regression algorithms aim to learn a function that maps input features to a continuous output value.",
+        "Popular Regression algorithms include Linear Regression, Random Forest Regression, and Gradient Boosting Regression."
+      ]
+    },
+    {
+      "tag": "clustering",
+      "patterns": [
+        "What is Clustering in Machine Learning?",
+        "How does Clustering work?",
+        "Can you explain Clustering to me?",
+        "What are some examples of Clustering problems?",
+        "Tell me more about Clustering."
+      ],
+      "responses": [
+        "Clustering is a type of Machine Learning task that involves grouping similar data points together.",
+        "In Clustering, the goal is to discover inherent patterns or structures in data without predefined labels.",
+        "Examples of Clustering problems include customer segmentation, document clustering, and image segmentation.",
+        "Clustering algorithms aim to find natural clusters in the data based on similarity or distance measures.",
+        "Popular Clustering algorithms include K-Means, DBSCAN, and Hierarchical Clustering."
+      ]
+    },
+    {
+      "tag": "linear_algebra",
+      "patterns": [
+        "What is Linear Algebra?",
+        "How does Linear Algebra relate to Machine Learning?",
+        "Can you explain Linear Algebra to me?",
+        "What are the key concepts in Linear Algebra?",
+        "Tell me more about Linear Algebra."
+      ],
+      "responses": [
+        "Linear Algebra is a branch of mathematics that deals with vectors, matrices, and linear transformations.",
+        "Linear Algebra is fundamental to many areas of Machine Learning, as it provides the mathematical foundation for understanding and manipulating data.",
+        "Key concepts in Linear Algebra include vector spaces, matrix operations, eigenvalues and eigenvectors, and linear transformations.",
+        "Linear Algebra is used in Machine Learning for tasks such as data preprocessing, feature engineering, and model optimization.",
+        "Understanding Linear Algebra is important for comprehending various Machine Learning algorithms and their underlying principles."
+      ]
+    },
+    {
+      "tag": "Machine Learning Algorithm",
+      "patterns": [
+        "What are Machine Learning algorithms?",
+        "Can you name some popular Machine Learning algorithms?",
+        "How do Machine Learning algorithms work?",
+        "Tell me more about Machine Learning algorithms.",
+        "What are the different types of Machine Learning algorithms?"
+      ],
+      "responses": [
+        "Machine Learning algorithms are computational methods or models that learn patterns or make predictions from data.",
+        "There are numerous Machine Learning algorithms, each with its own characteristics and applications.",
+        "Machine Learning algorithms work by training on labeled or unlabeled data to learn patterns and make predictions or take actions.",
+        "Some popular Machine Learning algorithms include Linear Regression, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Decision Trees.",
+        "Machine Learning algorithms can be categorized into supervised learning, unsupervised learning, and reinforcement learning."
+      ]
+    },
+    {
+      "tag": "linear_regression",
+      "patterns": [
+        "What is Linear Regression?",
+        "How does Linear Regression work?",
+        "Can you explain Linear Regression to me?",
+        "What are the assumptions of Linear Regression?",
+        "Tell me more about Linear Regression."
+      ],
+      "responses": [
+        "Linear Regression is a type of supervised learning algorithm used for predicting a continuous target variable based on input features.",
+        "In Linear Regression, the algorithm learns a linear relationship between the input features and the target variable.",
+        "Linear Regression works by finding the best-fit line that minimizes the difference between predicted and actual values.",
+        "The assumptions of Linear Regression include linearity, independence of errors, homoscedasticity, and normality of residuals.",
+        "Linear Regression is widely used for tasks such as sales forecasting, trend analysis, and risk assessment."
+      ]
+    },
+    {
+      "tag": "K-Nearest Neighbors",
+      "patterns": [
+        "What is K-Nearest Neighbors (KNN)?",
+        "How does K-Nearest Neighbors work?",
+        "Can you explain K-Nearest Neighbors to me?",
+        "What are the advantages of K-Nearest Neighbors?",
+        "Tell me more about K-Nearest Neighbors."
+      ],
+      "responses": [
+        "K-Nearest Neighbors (KNN) is a simple yet powerful supervised learning algorithm used for both classification and regression tasks.",
+        "In KNN, the algorithm assigns a new data point to the majority class or takes the average of the K nearest neighbors' values.",
+        "KNN works based on the assumption that similar data points exist close to each other in the feature space.",
+        "The advantages of KNN include simplicity, interpretability, and effectiveness on small to medium-sized datasets.",
+        "KNN can be applied to various problems such as image recognition, recommendation systems, and anomaly detection."
+      ]
+    },
+    {
+      "tag": "k_means",
+      "patterns": [
+        "What is K-Means Clustering?",
+        "How does K-Means Clustering work?",
+        "Can you explain K-Means Clustering to me?",
+        "What are the applications of K-Means Clustering?",
+        "Tell me more about K-Means Clustering."
+      ],
+      "responses": [
+        "K-Means Clustering is an unsupervised learning algorithm used for grouping similar data points into K clusters.",
+        "In K-Means Clustering, the algorithm iteratively assigns data points to the nearest cluster centroid and updates the centroid positions.",
+        "K-Means Clustering aims to minimize the within-cluster sum of squares, also known as the inertia or distortion.",
+        "Applications of K-Means Clustering include customer segmentation, image compression, and anomaly detection.",
+        "K-Means Clustering is widely used for exploratory data analysis and finding natural patterns in data."
+      ]
+    },
+    {
+      "tag": "logistic_regression",
+      "patterns": [
+        "What is Logistic Regression?",
+        "How does Logistic Regression work?",
+        "Can you explain Logistic Regression to me?",
+        "What are the applications of Logistic Regression?",
+        "Tell me more about Logistic Regression."
+      ],
+      "responses": [
+        "Logistic Regression is a classification algorithm used to predict the probability of an event occurring.",
+        "In Logistic Regression, the algorithm learns a logistic function that maps input features to the probability of belonging to a particular class.",
+        "Logistic Regression works by minimizing the logistic loss function using optimization techniques.",
+        "Applications of Logistic Regression include spam filtering, disease diagnosis, and credit risk assessment.",
+        "Logistic Regression is a fundamental algorithm in binary classification tasks."
+      ]
+    },
+    {
+      "tag": "Support_Vector_Machine",
+      "patterns": [
+        "What is Support Vector Machine (SVM)?",
+        "How does Support Vector Machine work?",
+        "Can you explain Support Vector Machine to me?",
+        "What are the advantages of Support Vector Machine?",
+        "Tell me more about Support Vector Machine."
+      ],
+      "responses": [
+        "Support Vector Machine (SVM) is a powerful supervised learning algorithm used for classification and regression tasks.",
+        "In SVM, the algorithm finds an optimal hyperplane that separates data points of different classes with the largest margin.",
+        "SVM works by transforming data into a higher-dimensional feature space and finding a linear or nonlinear decision boundary.",
+        "Advantages of SVM include effective handling of high-dimensional data, robustness to outliers, and versatility in kernel functions.",
+        "Support Vector Machine is widely used in areas such as image classification, text categorization, and bioinformatics."
+      ]
+    },
+    {
+      "tag": "decision_tree",
+      "patterns": [
+        "What is a Decision Tree?",
+        "How does a Decision Tree work?",
+        "Can you explain Decision Trees to me?",
+        "What are the advantages of Decision Trees?",
+        "Tell me more about Decision Trees."
+      ],
+      "responses": [
+        "A Decision Tree is a supervised learning algorithm that predicts the value of a target variable by learning simple decision rules.",
+        "In a Decision Tree, each internal node represents a feature or attribute, each branch represents a decision rule, and each leaf represents an outcome.",
+        "Decision Trees work by recursively splitting the data based on the most informative features to maximize information gain or Gini impurity reduction.",
+        "Advantages of Decision Trees include interpretability, handling both categorical and numerical features, and the ability to capture nonlinear relationships.",
+        "Decision Trees are widely used in areas such as data mining, medical diagnosis, and credit scoring."
+      ]
+    },
+    {
+      "tag": "naive_bayes",
+      "patterns": [
+        "What is Naive Bayes?",
+        "How does Naive Bayes work?",
+        "Can you explain Naive Bayes to me?",
+        "What are the applications of Naive Bayes?",
+        "Tell me more about Naive Bayes."
+      ],
+      "responses": [
+        "Naive Bayes is a classification algorithm based on Bayes' theorem with the assumption of independence among features.",
+        "In Naive Bayes, the algorithm calculates the probability of a data point belonging to each class and predicts the class with the highest probability.",
+        "Naive Bayes works well with high-dimensional data and is computationally efficient.",
+        "Applications of Naive Bayes include email spam filtering, sentiment analysis, and document classification.",
+        "Naive Bayes is a popular algorithm for text and document classification tasks."
+      ]
+    },
+    {
+      "tag": "ensemble_methods",
+      "patterns": [
+        "What are Ensemble Methods?",
+        "How do Ensemble Methods work?",
+        "Can you explain Ensemble Methods to me?",
+        "What are the advantages of Ensemble Methods?",
+        "Tell me more about Ensemble Methods."
+      ],
+      "responses": [
+        "Ensemble Methods are Machine Learning techniques that combine multiple individual models to make predictions or decisions.",
+        "Ensemble Methods work by aggregating predictions from multiple models to improve overall performance and reduce bias or variance.",
+        "Advantages of Ensemble Methods include improved accuracy, robustness to outliers, and the ability to handle complex problems.",
+        "Ensemble Methods include techniques such as Bagging, Boosting, and Random Forests.",
+        "Ensemble Methods are widely used in various domains and have achieved state-of-the-art results in many Machine Learning competitions."
+      ]
+    },
+    {
+      "tag": "random_forest",
+      "patterns": [
+        "What is Random Forest?",
+        "How does Random Forest work?",
+        "Can you explain Random Forest to me?",
+        "What are the advantages of Random Forest?",
+        "Tell me more about Random Forest."
+      ],
+      "responses": [
+        "Random Forest is an ensemble learning method that combines multiple decision trees to make predictions or classifications.",
+        "In Random Forest, each tree is trained on a random subset of the data, and predictions are made by majority voting or averaging.",
+        "Random Forest reduces overfitting by aggregating predictions from different trees and considering different subsets of features.",
+        "Advantages of Random Forest include high accuracy, robustness to noise and outliers, and the ability to handle large datasets.",
+        "Random Forest is widely used in areas such as image recognition, bioinformatics, and financial analysis."
+      ]
+    },
+    {
+      "tag": "optimization",
+      "patterns": [
+        "What is Optimization in Machine Learning?",
+        "How does Optimization work in Machine Learning?",
+        "Can you explain Optimization to me?",
+        "What are some optimization algorithms used in Machine Learning?",
+        "Tell me more about Optimization in Machine Learning."
+      ],
+      "responses": [
+        "Optimization in Machine Learning refers to the process of finding the best set of parameters or configuration to minimize or maximize an objective function.",
+        "In Machine Learning, optimization algorithms search for the optimal values of model parameters by iteratively updating them based on a defined objective and gradient information.",
+        "Optimization algorithms in Machine Learning include Gradient Descent, Stochastic Gradient Descent, Adam, and L-BFGS.",
+        "Optimization is crucial in training models, adjusting hyperparameters, and improving model performance.",
+        "Understanding different optimization techniques is important for efficient model training and convergence."
+      ]
+    },
+    {
+      "tag": "model_evaluation",
+      "patterns": [
+        "What are Model Evaluation Metrics?",
+        "How are Machine Learning models evaluated?",
+        "Can you explain Model Evaluation Metrics to me?",
+        "What are some common Model Evaluation Metrics?",
+        "Tell me more about Model Evaluation Metrics."
+      ],
+      "responses": [
+        "Model Evaluation Metrics are quantitative measures used to assess the performance and quality of Machine Learning models.",
+        "Machine Learning models are evaluated by comparing their predictions to the ground truth or known outcomes.",
+        "Common Model Evaluation Metrics include accuracy, precision, recall, F1 score, mean squared error, and area under the curve (AUC).",
+        "The choice of evaluation metrics depends on the specific problem, the type of model, and the desired trade-offs.",
+        "Model Evaluation Metrics help in understanding model performance, identifying strengths and weaknesses, and comparing different models."
+      ]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": [
+        "What is Reinforcement Learning?",
+        "How does Reinforcement Learning work?",
+        "Can you explain Reinforcement Learning to me?",
+        "What are some examples of Reinforcement Learning?",
+        "Tell me more about Reinforcement Learning."
+      ],
+      "responses": [
+        "Reinforcement Learning is a branch of Machine Learning that deals with agents making sequential decisions in an environment to maximize a reward signal.",
+        "In Reinforcement Learning, an agent learns through interactions with the environment, receiving feedback in the form of rewards or penalties.",
+        "Reinforcement Learning algorithms use trial and error, exploration, and exploitation to learn optimal strategies or policies.",
+        "Examples of Reinforcement Learning include training robots to perform tasks, game playing, and autonomous vehicle navigation.",
+        "Reinforcement Learning has applications in robotics, game AI, recommendation systems, and many other domains."
+      ]
+    },
+    {
+      "tag": "active_learning",
+      "patterns": [
+        "What is Active Learning?",
+        "How does Active Learning work?",
+        "Can you explain Active Learning to me?",
+        "What are the advantages of Active Learning?",
+        "Tell me more about Active Learning."
+      ],
+      "responses": [
+        "Active Learning is a Machine Learning technique that involves iteratively selecting the most informative or uncertain data points for annotation.",
+        "In Active Learning, an algorithm actively chooses samples to be labeled by an oracle to improve the model's performance.",
+        "Active Learning aims to reduce the amount of labeled data required for training while maintaining high model accuracy.",
+        "Advantages of Active Learning include faster model convergence, reduced labeling costs, and improved generalization performance.",
+        "Active Learning is beneficial when labeled data is limited or expensive to obtain, and when unlabeled data is abundant."
+      ]
+    },
+    {
+      "tag": "motivational_songs",
+      "patterns": [
+        "Can you suggest a motivational song?",
+        "Give me a motivated song.",
+        "Give me a uplifting songs?",
+        "Give me a song that inspires.",
+        "song"
+      ],
+      "responses": [
+        "Rise Up-Andra Day: Stand up, be strong, face the challenges ahead, and rise above them.You've got the power to stay strong and keep going, don't let anything hold you back. Let the fire in your heart guide you to success. Rise up, show the world what you're made of.",
+        "Eye of the Tiger-Survivor:It's the eye of the tiger, the thrill of the fight. You're a champion and you're ready to take on any challenge. Get up, get motivated, and conquer your goals. Let the fire within you ignite and push you to greatness.",
+        "Hall of Fame - The Script: You can be a champion, you can be the greatest. Be remembered for your accomplishments, leave a mark in this world. Be the person who inspires others and achieves greatness. Step into the hall of fame, claim your victory.",
+        "Believe - Cher: Believe in yourself, have faith in your abilities.  You're stronger than you think, you have the power to overcome.  Keep pushing forward, even when faced with adversity.  Believe in your dreams, and make them a reality.",
+        "The Climb - Miley Cyrus: It's all about the journey, the climb to the top.  Stay focused, keep going, and never lose sight of your dreams.  The road may be tough, but with perseverance and determination, you'll reach new heights.  Embrace the challenges, learn from them, and keep climbing.",
+        "Sure! Here's a motivational song for students: 'Aashayein' from the movie 'Iqbal'. It inspires and encourages one to pursue their dreams and never give up.",
+        "How about the song 'Ziddi Dil' from the movie 'Mary Kom'? It's an inspiring track that motivates students to stay determined and chase their goals.",
+        "You can listen to 'Lakshya' from the movie 'Lakshya'. It's a motivational anthem that inspires students to have a clear aim and work hard to achieve it.",
+        "I recommend the song 'Chak De India' from the movie 'Chak De India'. It's a powerful track that motivates students to overcome challenges and strive for success.",
+        "Another great song is 'Roobaroo' from the movie 'Rang De Basanti'. It's an uplifting track that encourages students to discover their true potential and make a difference."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I.m JuviBot, your assistant",
+        "I'm JuviBot, an Artificial Intelligent bot"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me JuviBot.",
+        "I'm JuviBot!",
+        "Just call me as JuviBot"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account"
+      ],
+      "responses": [
+        "You can just easily create a new account from our web site",
+        "Just go to our web site and follow the guidelines to create a new account"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+    {
+      "tag": "retest_exam_fee",
+      "patterns": [
+        "retest exam fee",
+        "how much is the retest exam?"
+      ],
+      "responses": [
+        "The retest exam fee varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "number_of_attempts",
+      "patterns": [
+        "number of attempts",
+        "how many times can I attempt the exam?"
+      ],
+      "responses": [
+        "The number of attempts to attempt an exam varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "course_schedule",
+      "patterns": [
+        "course schedule",
+        "when does the course start?",
+        "when does the course end?"
+      ],
+      "responses": [
+        "The course schedule varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "eligibility",
+        "what are the eligibility criteria for the course?",
+        "who can apply for the course?"
+      ],
+      "responses": [
+        "The eligibility criteria for NIELIT courses vary depending on the course. However, most NIELIT courses require a 10+2 or equivalent qualification. Some courses may also have additional requirements, such as a specific percentage of marks in certain subjects."
+      ]
+    },
+    {
+      "tag": "course_selection",
+      "patterns": [
+        "course selection",
+        "which course should I choose?",
+        "which course is right for me?"
+      ],
+      "responses": [
+        "The best course for you will depend on your interests and career goals. You may want to consider factors such as your previous education and experience, your job market, and your salary expectations."
+      ]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": [
+        "study materials",
+        "do I need to buy any study materials?",
+        "what study materials are available?"
+      ],
+      "responses": [
+        "NIELIT provides study materials for all of its courses. However, you may also want to purchase additional study materials from other sources."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "course duration",
+        "how long is the course?",
+        "when will the course be completed?"
+      ],
+      "responses": [
+        "The course duration varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "course_content",
+      "patterns": [
+        "course content",
+        "what is covered in the course?",
+        "what will I learn in the course?"
+      ],
+      "responses": [
+        "The course content varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "exam_fee",
+      "patterns": [
+        "exam fee",
+        "how much is the exam fee?",
+        "when do I need to pay the exam fee?"
+      ],
+      "responses": [
+        "The exam fee varies depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "submit_exam_form",
+      "patterns": [
+        "submit exam form",
+        "where do I submit my exam form?",
+        "how do I submit my exam form?"
+      ],
+      "responses": [
+        "You can submit your exam form to the nearest NIELIT center."
+      ]
+    },
+    {
+      "tag": "minimum_marks",
+      "patterns": [
+        "minimum marks",
+        "what is the minimum passing marks?",
+        "how many marks do I need to pass the course?"
+      ],
+      "responses": [
+        "The minimum marks required to qualify for a course successfully vary depending on the course. For more information, please visit the NIELIT website."
+      ]
+    },
+    {
+      "tag": "exam_mode",
+      "patterns": [
+        "exam mode",
+        "is the exam online or offline?",
+        "how is the exam conducted?"
+      ],
+      "responses": [
+        "The mode of examination varies depending on the course. Some courses may have an online exam, while others may have an offline exam."
+      ]
+    },
+    {
+      "tag": "CoursesAvailable",
+      "patterns": [
+        "How many courses are available?"
+      ],
+      "responses": [
+        "There are multiple courses available."
+      ]
+    },
+    {
+      "tag": "ShortLongTermCourses",
+      "patterns": [
+        "What are short term and long term courses?"
+      ],
+      "responses": [
+        "Short-term courses typically last a few weeks to a few months, while long-term courses can span several months to a few years."
+      ]
+    },
+    {
+      "tag": "DegreeCourses",
+      "patterns": [
+        "Is there any degree course available?"
+      ],
+      "responses": [
+        "Yes, there are degree courses available."
+      ]
+    },
+    {
+      "tag": "HardwareNetworkingCourses",
+      "patterns": [
+        "What are the hardware and networking / electronics courses?"
+      ],
+      "responses": [
+        "There are courses in hardware and networking, as well as electronics."
+      ]
+    },
+    {
+      "tag": "BenefitsOfCourses",
+      "patterns": [
+        "What are the benefits of these courses?"
+      ],
+      "responses": [
+        "The benefits of these courses include gaining valuable skills, increasing job prospects, and potential career advancement."
+      ]
+    },
+    {
+      "tag": "JobProspects",
+      "patterns": [
+        "Is it beneficial for job prospects?"
+      ],
+      "responses": [
+        "Yes, these courses can be beneficial for job prospects."
+      ]
+    },
+    {
+      "tag": "FeeStructure",
+      "patterns": [
+        "What is the fee structure of the course?"
+      ],
+      "responses": [
+        "The fee structure varies depending on the course. Please check the specific course details for fee information."
+      ]
+    },
+    {
+      "tag": "AdmissionProcess",
+      "patterns": [
+        "What is the process of admission?"
+      ],
+      "responses": [
+        "The admission process may involve filling out an application form, submitting required documents, and meeting eligibility criteria. The exact process can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "AdmissionDocuments",
+      "patterns": [
+        "What are the documents required at the time of admission?"
+      ],
+      "responses": [
+        "Typically, you will need to provide educational certificates, identification proof, and passport-sized photographs at the time of admission."
+      ]
+    },
+    {
+      "tag": "JobOrientedCourses",
+      "patterns": [
+        "Is there any job-oriented course available?"
+      ],
+      "responses": [
+        "Yes, there are job-oriented courses available."
+      ]
+    },
+    {
+      "tag": "PaymentMode",
+      "patterns": [
+        "What is the payment mode (DD/ online)?"
+      ],
+      "responses": [
+        "Payment modes can include Demand Draft (DD) or online payment. The specific payment options may vary by institution."
+      ]
+    },
+    {
+      "tag": "DDBank",
+      "patterns": [
+        "Is there a specific bank required for DD made?"
+      ],
+      "responses": [
+        "If a Demand Draft is required, the institution will specify which bank to use for making the DD."
+      ]
+    },
+    {
+      "tag": "AgeLimit",
+      "patterns": [
+        "Is there any age limit for enrollment in courses?"
+      ],
+      "responses": [
+        "The age limit for enrollment in courses may vary by course and institution. Some courses may have age restrictions, while others may not."
+      ]
+    },
+    {
+      "tag": "JobAfterCompletion",
+      "patterns": [
+        "After course completion, can we get a job?"
+      ],
+      "responses": [
+        "Upon course completion, you may be eligible for job opportunities, but it depends on the course and your performance."
+      ]
+    },
+    {
+      "tag": "HostelFacility",
+      "patterns": [
+        "Is there any hostel facility?"
+      ],
+      "responses": [
+        "Hostel facilities may or may not be available, depending on the institution."
+      ]
+    },
+    {
+      "tag": "FeeRelaxation",
+      "patterns": [
+        "Is there any relaxation in fee?"
+      ],
+      "responses": [
+        "Relaxation in fees may be available based on specific criteria or scholarships. Please check with the institution for details."
+      ]
+    },
+    {
+      "tag": "SCSTMinorityRelaxation",
+      "patterns": [
+        "What is the relaxation for SC/ST, minority, physically handicapped?"
+      ],
+      "responses": [
+        "Relaxations for SC/ST, minority, and physically handicapped candidates may be available based on government regulations. Contact the institution for specific information."
+      ]
+    },
+    {
+      "tag": "AdmissionFormWebsite",
+      "patterns": [
+        "Is there a form available on the website or not?"
+      ],
+      "responses": [
+        "In some cases, admission forms may be available on the institution's website. Check the website for availability."
+      ]
+    },
+    {
+      "tag": "AdmissionTest",
+      "patterns": [
+        "Is there any test for admission in courses or can we get direct admission in course?"
+      ],
+      "responses": [
+        "Some courses may require an admission test, while others may offer direct admission. The requirements vary by course and institution."
+      ]
+    },
+    {
+      "tag": "ExamFee",
+      "patterns": [
+        "What is the exam fee?"
+      ],
+      "responses": [
+        "The exam fee depends on the course and institution. Specific fee details can be obtained from the institution."
+      ]
+    },
+    {
+      "tag": "RetestExamFee",
+      "patterns": [
+        "What is the retest exam fee?"
+      ],
+      "responses": [
+        "Retest exam fees, if applicable, will depend on the course and institution's policies."
+      ]
+    },
+    {
+      "tag": "ExamAttempts",
+      "patterns": [
+        "How many chances to attempt an exam?"
+      ],
+      "responses": [
+        "The number of chances to attempt an exam may vary by course and institution. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "CourseSchedule",
+      "patterns": [
+        "What is the course schedule?"
+      ],
+      "responses": [
+        "Course schedules can vary, so it's best to check with the institution for specific timing and duration information."
+      ]
+    },
+    {
+      "tag": "Eligibility",
+      "patterns": [
+        "What is the Eligibility to join this course?"
+      ],
+      "responses": [
+        "Eligibility criteria can vary by course. Check the course details for specific eligibility requirements."
+      ]
+    },
+    {
+      "tag": "CourseChoice",
+      "patterns": [
+        "Which course should I choose?"
+      ],
+      "responses": [
+        "The choice of course should align with your career goals, interests, and educational background. Seek guidance from course counselors if needed."
+      ]
+    },
+    {
+      "tag": "StudyMaterials",
+      "patterns": [
+        "Do I need to buy any study materials?"
+      ],
+      "responses": [
+        "Study materials may be provided by the institution, but additional materials may need to be purchased for some courses."
+      ]
+    },
+    {
+      "tag": "CourseDuration",
+      "patterns": [
+        "What is the course duration?"
+      ],
+      "responses": [
+        "Course durations vary depending on the specific course. Some may be a few weeks, while others can be several years."
+      ]
+    },
+    {
+      "tag": "CourseContent",
+      "patterns": [
+        "What does the Course content include?"
+      ],
+      "responses": [
+        "Course content typically includes lectures, practical exercises, assignments, and assessments relevant to the subject matter."
+      ]
+    },
+    {
+      "tag": "CourseExaminationFee",
+      "patterns": [
+        "What is the fee of course Examination?"
+      ],
+      "responses": [
+        "The examination fee varies by course. Refer to the course details or institution for specific fee information."
+      ]
+    },
+    {
+      "tag": "ExamFormSubmission",
+      "patterns": [
+        "Where can I submit the examination form or application ?"
+      ],
+      "responses": [
+        "Examination forms or applications can usually be submitted to the institution's administration office or through an online portal."
+      ]
+    },
+    {
+      "tag": "MinimumMarks",
+      "patterns": [
+        "What are the minimum marks required to qualify for courses successfully?"
+      ],
+      "responses": [
+        "The minimum marks required to pass a course can vary by course and institution. Check with the institution for passing criteria."
+      ]
+    },
+    {
+      "tag": "ExaminationMode",
+      "patterns": [
+        "What is the mode of examination?"
+      ],
+      "responses": [
+        "The mode of examination can include written exams, practical assessments, or online tests, depending on the course."
+      ]
+    },
+    {
+      "tag": "JobProcess",
+      "patterns": [
+        "What is the job process?"
+      ],
+      "responses": [
+        "The job process may involve job placement services offered by the institution or seeking employment independently based on the skills acquired."
+      ]
+    },
+    {
+      "tag": "AttendanceRequirement",
+      "patterns": [
+        "How much attendance required to sit in exam?"
+      ],
+      "responses": [
+        "Attendance requirements for exams can vary by course and institution. Check with the institution for specific attendance policies."
+      ]
+    },
+    {
+      "tag": "PassingCriteria",
+      "patterns": [
+        "What is passing criteria for course?"
+      ],
+      "responses": [
+        "The passing criteria for a course may involve achieving a minimum percentage or grade set by the institution."
+      ]
+    },
+    {
+      "tag": "BatchSize",
+      "patterns": [
+        "How much students in one batch?"
+      ],
+      "responses": [
+        "The number of students in one batch can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "WeekendClasses",
+      "patterns": [
+        "Is a weekend class available for working?"
+      ],
+      "responses": [
+        "Weekend classes for working professionals may be available for some courses. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "CertificationAfterCompletion",
+      "patterns": [
+        "Can we get certification after course completion?"
+      ],
+      "responses": [
+        "Certification is typically provided upon successful completion of the course requirements."
+      ]
+    },
+    {
+      "tag": "CourseScheduleBatchTiming",
+      "patterns": [
+        "What is the schedule for all courses, and Batch Timing?"
+      ],
+      "responses": [
+        "Course schedules and batch timings can vary by course and institution. Refer to the specific course details for this information."
+      ]
+    },
+    {
+      "tag": "DistanceModeCourses",
+      "patterns": [
+        "How many Courses are available from Distance mode?"
+      ],
+      "responses": [
+        "Some courses are available through distance mode. Check with the institution for a list of distance education courses."
+      ]
+    },
+    {
+      "tag": "CourseScholarship",
+      "patterns": [
+        "Can we get Course scholarship after exam clear?"
+      ],
+      "responses": [
+        "Scholarships may be available based on performance in exams or specific criteria. Contact the institution for scholarship details."
+      ]
+    },
+    {
+      "tag": "CourseDiscounts",
+      "patterns": [
+        "Are there any discounts in Course"
+      ],
+      "responses": [
+        "Discounts on course fees may be available under certain conditions. Check with the institution for discount opportunities."
+      ]
+    },
+    {
+      "tag": "InstallmentPayment",
+      "patterns": [
+        "Can I pay in installments?"
+      ],
+      "responses": [
+        "Installment payment options may be available for some courses. Inquire with the institution about payment plans."
+      ]
+    },
+    {
+      "tag": "CourseLocation",
+      "patterns": [
+        "Where and when is the course held?"
+      ],
+      "responses": [
+        "The location and timing of courses can vary by institution. Refer to the course details for specific information."
+      ]
+    },
+    {
+      "tag": "CourseRetake",
+      "patterns": [
+        "Can I take a course more than once?"
+      ],
+      "responses": [
+        "Course retakes may be possible, but policies can vary by institution. Check with the institution for retake options."
+      ]
+    },
+    {
+      "tag": "CertificationExamFee",
+      "patterns": [
+        "What is the fee for the certification exam?"
+      ],
+      "responses": [
+        "Certification exam fees vary by course and institution. Refer to the specific course details for exam fee information."
+      ]
+    },
+    {
+      "tag": "AdmissionLastDate",
+      "patterns": [
+        "Is there any last date for admission?"
+      ],
+      "responses": [
+        "Admission deadlines vary by course and institution. Check with the institution for specific admission deadlines."
+      ]
+    },
+    {
+      "tag": "TrialClasses",
+      "patterns": [
+        "Can we get trial classes?"
+      ],
+      "responses": [
+        "Trial classes may be offered for some courses. Contact the institution to inquire about trial class availability."
+      ]
+    },
+    {
+      "tag": "ExamRetake",
+      "patterns": [
+        "Can I retake my exam if I don’t pass?"
+      ],
+      "responses": [
+        "Retaking exams may be possible, but the number of attempts allowed can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "CourseExtension",
+      "patterns": [
+        "Can I extend my course/exam/practice test after it expires?"
+      ],
+      "responses": [
+        "Course, exam, or practice test extensions may or may not be available, depending on the institution's policies."
+      ]
+    },
+    {
+      "tag": "courses_available",
+      "patterns": [
+        "How many courses are available?"
+      ],
+      "responses": [
+        "There are multiple courses available."
+      ]
+    },
+    {
+      "tag": "short_long_term_courses",
+      "patterns": [
+        "What are short term and long term courses?"
+      ],
+      "responses": [
+        "Short-term courses typically last a few weeks to a few months, while long-term courses can span several months to a few years."
+      ]
+    },
+    {
+      "tag": "degree_courses_available",
+      "patterns": [
+        "Is there any degree course available?"
+      ],
+      "responses": [
+        "Yes, there are degree courses available."
+      ]
+    },
+    {
+      "tag": "hardware_networking_electronics_courses",
+      "patterns": [
+        "What are the hardware and networking / electronics courses?"
+      ],
+      "responses": [
+        "There are courses in hardware and networking, as well as electronics."
+      ]
+    },
+    {
+      "tag": "benefits_of_courses",
+      "patterns": [
+        "What are the benefits of these courses?"
+      ],
+      "responses": [
+        "The benefits of these courses include gaining valuable skills, increasing job prospects, and potential career advancement."
+      ]
+    },
+    {
+      "tag": "job_prospects",
+      "patterns": [
+        "Is it beneficial for job prospects?"
+      ],
+      "responses": [
+        "Yes, these courses can be beneficial for job prospects."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure of the course?"
+      ],
+      "responses": [
+        "The fee structure varies depending on the course. Please check the specific course details for fee information."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "What is the process of admission?"
+      ],
+      "responses": [
+        "The admission process may involve filling out an application form, submitting required documents, and meeting eligibility criteria. The exact process can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "documents_required",
+      "patterns": [
+        "What are the documents required at the time of admission?"
+      ],
+      "responses": [
+        "Typically, you will need to provide educational certificates, identification proof, and passport-sized photographs at the time of admission."
+      ]
+    },
+    {
+      "tag": "job_oriented_courses",
+      "patterns": [
+        "Is there any job-oriented course available?"
+      ],
+      "responses": [
+        "Yes, there are job-oriented courses available."
+      ]
+    },
+    {
+      "tag": "payment_mode",
+      "patterns": [
+        "What is the payment mode (DD/ online)?"
+      ],
+      "responses": [
+        "Payment modes can include Demand Draft (DD) or online payment. The specific payment options may vary by institution."
+      ]
+    },
+    {
+      "tag": "specific_bank_for_DD",
+      "patterns": [
+        "Is there a specific bank required for DD made?"
+      ],
+      "responses": [
+        "If a Demand Draft is required, the institution will specify which bank to use for making the DD."
+      ]
+    },
+    {
+      "tag": "age_limit_for_enrollment",
+      "patterns": [
+        "Is there any age limit for enrollment in courses?"
+      ],
+      "responses": [
+        "The age limit for enrollment in courses may vary by course and institution. Some courses may have age restrictions, while others may not."
+      ]
+    },
+    {
+      "tag": "job_after_completion",
+      "patterns": [
+        "After course completion, can we get a job?"
+      ],
+      "responses": [
+        "Upon course completion, you may be eligible for job opportunities, but it depends on the course and your performance."
+      ]
+    },
+    {
+      "tag": "hostel_facility",
+      "patterns": [
+        "Is there any hostel facility?"
+      ],
+      "responses": [
+        "Hostel facilities may or may not be available, depending on the institution."
+      ]
+    },
+    {
+      "tag": "relaxation_in_fee",
+      "patterns": [
+        "Is there any relaxation in fee?"
+      ],
+      "responses": [
+        "Relaxation in fees may be available based on specific criteria or scholarships. Please check with the institution for details."
+      ]
+    },
+    {
+      "tag": "relaxation_for_categories",
+      "patterns": [
+        "What is the relaxation for SC/ST, minority, physically handicapped?"
+      ],
+      "responses": [
+        "Relaxations for SC/ST, minority, and physically handicapped candidates may be available based on government regulations. Contact the institution for specific information."
+      ]
+    },
+    {
+      "tag": "form_on_website",
+      "patterns": [
+        "Is there a form available on the website or not?"
+      ],
+      "responses": [
+        "In some cases, admission forms may be available on the institution's website. Check the website for availability."
+      ]
+    },
+    {
+      "tag": "admission_test_or_direct_admission",
+      "patterns": [
+        "Is there any test for admission in courses or can we get direct admission in the course?"
+      ],
+      "responses": [
+        "Some courses may require an admission test, while others may offer direct admission. The requirements vary by course and institution."
+      ]
+    },
+    {
+      "tag": "exam_fee",
+      "patterns": [
+        "What is the exam fee?"
+      ],
+      "responses": [
+        "The exam fee depends on the course and institution. Specific fee details can be obtained from the institution."
+      ]
+    },
+    {
+      "tag": "retest_exam_fee",
+      "patterns": [
+        "What is the retest exam fee?"
+      ],
+      "responses": [
+        "Retest exam fees, if applicable, will depend on the course and institution's policies."
+      ]
+    },
+    {
+      "tag": "attempts_for_exam",
+      "patterns": [
+        "How many chances to attempt an exam?"
+      ],
+      "responses": [
+        "The number of chances to attempt an exam may vary by course and institution. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "course_schedule",
+      "patterns": [
+        "What is the course schedule?"
+      ],
+      "responses": [
+        "Course schedules can vary, so it's best to check with the institution for specific timing and duration information."
+      ]
+    },
+    {
+      "tag": "eligibility_to_join_course",
+      "patterns": [
+        "What is the Eligibility to join this course?"
+      ],
+      "responses": [
+        "Eligibility criteria can vary by course. Check the course details for specific eligibility requirements."
+      ]
+    },
+    {
+      "tag": "which_course_to_choose",
+      "patterns": [
+        "Which course should I choose?"
+      ],
+      "responses": [
+        "The choice of course should align with your career goals, interests, and educational background. Seek guidance from course counselors if needed."
+      ]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": [
+        "Do I need to buy any study materials?"
+      ],
+      "responses": [
+        "Study materials may be provided by the institution, but additional materials may need to be purchased for some courses."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "What is the course duration?"
+      ],
+      "responses": [
+        "Course durations vary depending on the specific course. Some may be a few weeks, while others can be several years."
+      ]
+    },
+    {
+      "tag": "course_content",
+      "patterns": [
+        "What is the Course content include?"
+      ],
+      "responses": [
+        "Course content typically includes lectures, practical exercises, assignments, and assessments relevant to the subject matter."
+      ]
+    },
+    {
+      "tag": "course_examination_fee",
+      "patterns": [
+        "What is the fee of course Examination?"
+      ],
+      "responses": [
+        "The examination fee varies by course. Refer to the course details or institution for specific fee information."
+      ]
+    },
+    {
+      "tag": "submit_exam_form",
+      "patterns": [
+        "Where I can submit the examination form or application ?"
+      ],
+      "responses": [
+        "Examination forms or applications can usually be submitted to the institution's administration office or through an online portal."
+      ]
+    },
+    {
+      "tag": "minimum_marks_for_qualification",
+      "patterns": [
+        "What are the minimum marks required to qualify for courses successfully?"
+      ],
+      "responses": [
+        "The minimum marks required to pass a course can vary by course and institution. Check with the institution for passing criteria."
+      ]
+    },
+    {
+      "tag": "mode_of_examination",
+      "patterns": [
+        "What is the mode of examination?"
+      ],
+      "responses": [
+        "The mode of examination can include written exams, practical assessments, or online tests, depending on the course."
+      ]
+    },
+    {
+      "tag": "job_process",
+      "patterns": [
+        "What is the job process?"
+      ],
+      "responses": [
+        "The job process may involve job placement services offered by the institution or seeking employment independently based on the skills acquired."
+      ]
+    },
+    {
+      "tag": "attendance_for_exam",
+      "patterns": [
+        "How much attendance is required to sit in the exam?"
+      ],
+      "responses": [
+        "Attendance requirements for exams can vary by course and institution. Check with the institution for specific attendance policies."
+      ]
+    },
+    {
+      "tag": "passing_criteria",
+      "patterns": [
+        "What is passing criteria for course?"
+      ],
+      "responses": [
+        "The passing criteria for a course may involve achieving a minimum percentage or grade set by the institution."
+      ]
+    },
+    {
+      "tag": "students_in_one_batch",
+      "patterns": [
+        "How much students in one batch?"
+      ],
+      "responses": [
+        "The number of students in one batch can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "weekend_classes",
+      "patterns": [
+        "Is a weekend class available for working?"
+      ],
+      "responses": [
+        "Weekend classes for working professionals may be available for some courses. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "certification_after_completion",
+      "patterns": [
+        "Can we get certification after course completion?"
+      ],
+      "responses": [
+        "Certification is typically provided upon successful completion of the course requirements."
+      ]
+    },
+    {
+      "tag": "course_schedule_batch_timing",
+      "patterns": [
+        "What is schedule for all course, and Batch Timing?"
+      ],
+      "responses": [
+        "Course schedules and batch timings can vary by course and institution. Refer to the specific course details for this information."
+      ]
+    },
+    {
+      "tag": "distance_mode_courses",
+      "patterns": [
+        "How many Courses are available from Distance mode?"
+      ],
+      "responses": [
+        "Some courses are available through distance mode. Check with the institution for a list of distance education courses."
+      ]
+    },
+    {
+      "tag": "course_scholarship",
+      "patterns": [
+        "Can we get Course scholarship after exam clear?"
+      ],
+      "responses": [
+        "Scholarships may be available based on performance in exams or specific criteria. Contact the institution for scholarship details."
+      ]
+    },
+    {
+      "tag": "course_discounts",
+      "patterns": [
+        "Are there any discounts in Course?"
+      ],
+      "responses": [
+        "Discounts on course fees may be available under certain conditions. Check with the institution for discount opportunities."
+      ]
+    },
+    {
+      "tag": "installment_payment",
+      "patterns": [
+        "Can I pay in installments?"
+      ],
+      "responses": [
+        "Installment payment options may be available for some courses. Inquire with the institution about payment plans."
+      ]
+    },
+    {
+      "tag": "course_location_timing",
+      "patterns": [
+        "Where and when is the course held?"
+      ],
+      "responses": [
+        "The location and timing of courses can vary by institution. Refer to the course details for specific information."
+      ]
+    },
+    {
+      "tag": "course_retake",
+      "patterns": [
+        "Can I take a course more than once?"
+      ],
+      "responses": [
+        "Course retakes may be possible, but policies can vary by institution. Check with the institution for retake options."
+      ]
+    },
+    {
+      "tag": "certification_exam_fee",
+      "patterns": [
+        "What is the fee for the certification exam?"
+      ],
+      "responses": [
+        "Certification exam fees vary by course and institution. Refer to the specific course details for exam fee information."
+      ]
+    },
+    {
+      "tag": "last_date_for_admission",
+      "patterns": [
+        "Is there any last date for admission?"
+      ],
+      "responses": [
+        "Admission deadlines vary by course and institution. Check with the institution for specific admission deadlines."
+      ]
+    },
+    {
+      "tag": "trial_classes",
+      "patterns": [
+        "Can we get trial classes?"
+      ],
+      "responses": [
+        "Trial classes may be offered for some courses. Contact the institution to inquire about trial class availability."
+      ]
+    },
+    {
+      "tag": "retake_exam",
+      "patterns": [
+        "Can I retake my exam if I don’t pass?"
+      ],
+      "responses": [
+        "Retaking exams may be possible, but the number of attempts allowed can vary by course and institution."
+      ]
+    },
+    {
+      "tag": "course_extension",
+      "patterns": [
+        "Can I extend my course/exam/practice test after it expires?"
+      ],
+      "responses": [
+        "Course, exam, or practice test extensions may or may not be available, depending on the institution's policies."
+      ]
+    },
+    {
+      "tag": "Courses and Admission",
+      "patterns": [
+        "How many courses are available?",
+        "What are short term and long term courses?",
+        "Is there any degree course available?",
+        "What are the hardware and networking / electronics courses?",
+        "What are the benefits of these courses?",
+        "Is beneficial for job prospective?",
+        "What is the fee structure of course?",
+        "What is the process of admission?",
+        "What are the documents required at the time of admission?",
+        "Is there any job oriented course available?",
+        "What is the payment mode (DD/ online)",
+        "Is there specific bank required for DD made?",
+        "Is there any age limit for enrolment in courses?",
+        "After course completion can we get job?",
+        "Is there any hostel facility?",
+        "Is there any relaxation in fee?",
+        "What is the relaxation for sc/st, minority, physically handicapped?",
+        "Is there form available on website or not?",
+        "Is there any test for admission in courses or we can get direct admission in course?",
+        "What is the exam fee?",
+        "What is the retest exam fee?",
+        "How many chances to attempt a exam?",
+        "What is the course schedule?",
+        "What is the Eligibility to join this course?",
+        "Which course should I choose?",
+        "Do I need to buy any study materials?",
+        "What is the course duration?",
+        "What is  the Course content include?",
+        "What is the fee of course Examination?",
+        "Where I can submit the examination form or application ?",
+        "What are the minimum marks required qualifying courses successfully?",
+        "What is the mode of examination?",
+        "What is the job process?",
+        "How much attendance required to sit in exam?",
+        "What is passing criteria for course?",
+        "How much students in one batch?",
+        "Is a weekend class available for working?",
+        "Can we get certification after course completion?",
+        "What is schedule for all course, and Batch Timing?",
+        "How many Courses are available from Distance mode?",
+        "Can we get Course scholarship after exam clear?",
+        "Are there any discounts in Course",
+        "Can I pay in installments?",
+        "Where and when is the course held?",
+        "Can I take a course more than once?",
+        "What is the fee for the certification exam?",
+        "Is there any last date for admission?",
+        "Can we get trial classes?",
+        "Can I retake my exam if I don’t pass?",
+        "Can I extend my course/exam/practice test after it expires?"
+      ],
+      "responses": [
+        "There are a variety of courses available, including short-term, long-term, and degree courses. The specific courses offered will vary depending on the institution.",
+        "Short-term courses are typically a few weeks or months in duration, while long-term courses can last for several years. Degree courses are typically three or four years in duration and lead to a bachelor's degree.",
+        "Yes, there are a variety of degree courses available. The specific degree courses offered will vary depending on the institution.",
+        "Some of the most popular hardware and networking / electronics courses include:",
+        "- Computer Hardware Engineering",
+        "- Networking Engineering",
+        "- Electronics Engineering",
+        "- Embedded Systems Engineering",
+        "- Robotics Engineering",
+        "These courses can prepare you for a variety of career opportunities in the IT industry.",
+        "There are many benefits to taking these courses, including:",
+        "- Gaining in-demand skills",
+        "- Improving your job prospects",
+        "- Increasing your earning potential",
+        "- Learning from experienced professionals",
+        "- Networking with other students and professionals",
+        "Yes, these courses can be very beneficial for your job prospects. In fact, many employers prefer to hire candidates who have completed these types of courses.",
+        "The fee structure for courses will vary depending on the institution and the specific course you choose. However, most institutions offer a variety of payment options, such as tuition payment plans and scholarships."
+      ]
+    },
+    {
+      "tag": "Short Term Courses",
+      "patterns": [
+        "What are short term courses?"
+      ],
+      "responses": [
+        "Short-term courses typically cover specific topics in a shorter duration, typically a few weeks to a few months."
+      ]
+    },
+    {
+      "tag": "Long Term Courses",
+      "patterns": [
+        "What are the Long term Courses?"
+      ],
+      "responses": [
+        "Long-term courses are more comprehensive and can span several months to a few years, providing in-depth knowledge and skills."
+      ]
+    },
+    {
+      "tag": "Electronics Courses",
+      "patterns": [
+        "What are the electronics courses?"
+      ],
+      "responses": [
+        "Electronics courses focus on topics related to electronic devices, circuits, and systems."
+      ]
+    },
+    {
+      "tag": "Hardware and Networking Courses",
+      "patterns": [
+        "What are the hardware and networking courses?"
+      ],
+      "responses": [
+        "Hardware and networking courses cover subjects related to computer hardware, network infrastructure, and IT support."
+      ]
+    },
+    {
+      "tag": "Benefits of Courses",
+      "patterns": [
+        "What are the benefits of these courses?"
+      ],
+      "responses": [
+        "These courses offer benefits such as gaining valuable skills, improving job prospects, and potential career advancement."
+      ]
+    },
+    {
+      "tag": "Job Prospects",
+      "patterns": [
+        "Is it beneficial for job prospects?"
+      ],
+      "responses": [
+        "Yes, these courses can enhance your job prospects by providing you with relevant skills and knowledge."
+      ]
+    },
+    {
+      "tag": "Fee Structure",
+      "patterns": [
+        "What is the fee structure of the course?"
+      ],
+      "responses": [
+        "The fee structure varies depending on the specific course. Please check the course details for fee information."
+      ]
+    },
+    {
+      "tag": "Admission Process",
+      "patterns": [
+        "What is the process of admission?"
+      ],
+      "responses": [
+        "The admission process typically involves filling out an application form, submitting required documents, and meeting eligibility criteria. The exact process may vary by course and institution."
+      ]
+    },
+    {
+      "tag": "Required Documents",
+      "patterns": [
+        "What are the documents required at the time of admission?"
+      ],
+      "responses": [
+        "Usually, you will need to provide educational certificates, identification proof, and passport-sized photographs during the admission process."
+      ]
+    },
+    {
+      "tag": "Job-Oriented Courses",
+      "patterns": [
+        "Is there any job-oriented course available?"
+      ],
+      "responses": [
+        "Yes, there are job-oriented courses available to help you acquire skills that are in demand in the job market."
+      ]
+    },
+    {
+      "tag": "Payment Mode",
+      "patterns": [
+        "What is the payment mode (DD/ online)?"
+      ],
+      "responses": [
+        "Payment modes can include Demand Draft (DD) or online payment. The specific payment options may vary by institution."
+      ]
+    },
+    {
+      "tag": "Specific Bank for DD",
+      "patterns": [
+        "Is there a specific bank required for DD made?"
+      ],
+      "responses": [
+        "If a Demand Draft is required, the institution will specify which bank to use for making the DD."
+      ]
+    },
+    {
+      "tag": "Age Limit",
+      "patterns": [
+        "Is there any age limit for enrollment in courses?"
+      ],
+      "responses": [
+        "The age limit for enrollment in courses may vary by course and institution. Some courses may have age restrictions, while others may not."
+      ]
+    },
+    {
+      "tag": "Job Opportunities",
+      "patterns": [
+        "After course completion can we get a job?"
+      ],
+      "responses": [
+        "Upon course completion, you may be eligible for job opportunities, but it depends on the course and your performance."
+      ]
+    },
+    {
+      "tag": "Hostel Facility",
+      "patterns": [
+        "Is there any hostel facility?"
+      ],
+      "responses": [
+        "Hostel facilities may or may not be available, depending on the institution. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "Fee Relaxation",
+      "patterns": [
+        "Is there any relaxation in fee?"
+      ],
+      "responses": [
+        "Relaxation in fees may be available based on specific criteria or scholarships. Please check with the institution for details."
+      ]
+    },
+    {
+      "tag": "Relaxation Criteria",
+      "patterns": [
+        "What is the relaxation for SC/ST, minority, physically handicapped?"
+      ],
+      "responses": [
+        "Relaxations for SC/ST, minority, and physically handicapped candidates may be available based on government regulations. Contact the institution for specific information."
+      ]
+    },
+    {
+      "tag": "Admission Form",
+      "patterns": [
+        "Is there a form available on the website or not?"
+      ],
+      "responses": [
+        "In some cases, admission forms may be available on the institution's website. Check the website for availability."
+      ]
+    },
+    {
+      "tag": "Admission Test",
+      "patterns": [
+        "Is there any test for admission in courses or can we get direct admission in the course?"
+      ],
+      "responses": [
+        "Some courses may require an admission test, while others may offer direct admission. The requirements vary by course and institution."
+      ]
+    },
+    {
+      "tag": "Exam Fee",
+      "patterns": [
+        "What is the exam fee?"
+      ],
+      "responses": [
+        "The exam fee depends on the course and institution. Specific fee details can be obtained from the institution."
+      ]
+    },
+    {
+      "tag": "Retest Exam Fee",
+      "patterns": [
+        "What is the retest exam fee?"
+      ],
+      "responses": [
+        "Retest exam fees, if applicable, will depend on the course and institution's policies."
+      ]
+    },
+    {
+      "tag": "Exam Attempts",
+      "patterns": [
+        "How many chances to attempt an exam?"
+      ],
+      "responses": [
+        "The number of chances to attempt an exam may vary by course and institution. Check with the institution for details."
+      ]
+    },
+    {
+      "tag": "Course Schedule",
+      "patterns": [
+        "What is the course schedule?"
+      ],
+      "responses": [
+        "Course schedules can vary, so it's best to check with the institution for specific timing and duration information."
+      ]
+    },
+    {
+      "tag": "Eligibility Criteria",
+      "patterns": [
+        "What is the Eligibility to join this course?"
+      ],
+      "responses": [
+        "Eligibility criteria can vary by course. Check the course details for specific eligibility requirements."
+      ]
+    },
+    {
+      "tag": "Course Selection",
+      "patterns": [
+        "Which course should I choose?"
+      ],
+      "responses": [
+        "The choice of course should align with your career goals, interests, and educational background. Seek guidance from course counselors if needed."
+      ]
+    },
+    {
+      "tag": "Study Materials",
+      "patterns": [
+        "Do I need to buy any study materials?"
+      ],
+      "responses": [
+        "Study materials may be provided by the institution, but additional materials may need to be purchased for some courses."
+      ]
+    },
+    {
+      "tag": "Course Duration",
+      "patterns": [
+        "What is the course duration?"
+      ],
+      "responses": [
+        "Course durations vary depending on the specific course. Some may be a few weeks, while others can be several years."
+      ]
+    },
+    {
+      "tag": "Course Content",
+      "patterns": [
+        "What does the Course content include?"
+      ],
+      "responses": [
+        "Course content typically includes lectures, practical exercises, assignments, and assessments relevant to the subject matter."
+      ]
+    },
+    {
+      "tag": "Course Eligibility",
+      "patterns": [
+        "What are the eligibility criteria for Course?"
+      ],
+      "responses": [
+        "The eligibility criteria for a course may vary. It is essential to check the specific course details for eligibility requirements."
+      ]
+    },
+    {
+      "tag": "Course Examination Fee",
+      "patterns": [
+        "What is the fee of course Examination?"
+      ],
+      "responses": [
+        "The examination fee varies by course. Refer to the course details or institution for specific fee information."
+      ]
+    },
+    {
+      "tag": "Exam Submission",
+      "patterns": [
+        "Where can I submit the examination form?"
+      ],
+      "responses": [
+        "Examination forms or applications can usually be submitted to the institution's administration office or through an online portal."
+      ]
+    },
+    {
+      "tag": "Minimum Marks",
+      "patterns": [
+        "What are the minimum marks required to qualify for courses successfully?"
+      ],
+      "responses": [
+        "The minimum marks required to pass a course can vary by course and institution. Check with the institution for passing criteria."
+      ]
+    },
+    {
+      "tag": "Exam Mode",
+      "patterns": [
+        "What is the mode of examination?"
+      ],
+      "responses": [
+        "The mode of examination can include written exams, practical assessments, or online tests, depending on the course."
+      ]
+    },
+    {
+      "tag": "Job Process",
+      "patterns": [
+        "What is the job process?"
+      ],
+      "responses": [
+        "The job process may involve job placement services offered by the institution or seeking employment independently based on the skills acquired."
+      ]
+    },
+    {
+      "tag": "course_selection",
+      "patterns": [
+        "Which course should I choose?",
+        "What is the course schedule?",
+        "What is course fee?",
+        "Do I need to buy any study materials?",
+        "What does the course package include?",
+        "What is the Course Name?",
+        "What is the Eligibility to join this course?",
+        "What does the Course content include?",
+        "What is the duration of Course?"
+      ],
+      "responses": [
+        "Choosing the right course depends on your career goals and interests. We can provide information on specific courses if you have one in mind.",
+        "The course schedule may vary by course and institution. Please specify the course you're interested in for more details.",
+        "Course fees vary by course and institution. To get information on a specific course fee, please provide the course name.",
+        "Study materials may or may not be included. It depends on the course. Let us know which course you're interested in, and we can provide details.",
+        "The course package includes lectures, practical exercises, assignments, and assessments relevant to the subject matter.",
+        "Please specify the course name for details about the Course Name.",
+        "Eligibility criteria for each course can vary. Please provide the name of the course you want to know about.",
+        "The course content typically includes lectures, practical exercises, assignments, and assessments relevant to the subject matter.",
+        "The duration of the course varies by course. Please specify the course you're interested in for the duration."
+      ]
+    },
+    {
+      "tag": "ccc_course",
+      "patterns": [
+        "What is duration of CCC Course?",
+        "What is Course on Computer Concepts (CCC)?",
+        "What are the eligibility criteria for CCC Course?",
+        "What is duration of CCC Course?",
+        "What is the fee of CCC Examination?",
+        "Can I submit the examination form of CCC with late fee and what is the late fee?",
+        "What is the fee structure of course?",
+        "What is the schedule of CCC examination?",
+        "Where I can submit the examination form?",
+        "What are the minimum marks required to qualify CCC successfully?",
+        "What is the mode of examination?",
+        "How many questions to be attempt and what is the duration of examination?",
+        "Where I can appear in the CCC Examination?",
+        "Where I can check the result of CCC Examination?"
+      ],
+      "responses": [
+        "The duration of the CCC Course is typically [duration]. CCC stands for Course on Computer Concepts, which is a program to learn computer basics.",
+        "CCC (Course on Computer Concepts) is a program that covers computer fundamentals and basic software skills.",
+        "The eligibility criteria for the CCC Course may vary by institution. Please check with the specific institution offering the course for eligibility details.",
+        "The CCC Examination fee can vary by the institution conducting the exam. Please contact the institution for fee details.",
+        "Late fee policies for CCC Examination may vary by the conducting authority. Please check with the examination authority for late fee information.",
+        "Course fee structures can vary. For details on the fee structure of the CCC Course, please contact the institution offering the course.",
+        "The schedule of the CCC examination may vary by the conducting authority. Please check with the examination authority for the exam schedule.",
+        "Examination forms for CCC can usually be submitted through the institution conducting the exam or their designated centers. Please check with the conducting authority.",
+        "The minimum marks required to qualify for CCC may vary. Please check with the examination authority for passing criteria.",
+        "The mode of examination for CCC may include written exams or online tests, depending on the conducting authority.",
+        "The number of questions and the duration of the CCC examination can vary. Please check with the conducting authority for specific details.",
+        "You can appear for the CCC Examination at designated examination centers. Please check with the conducting authority for the nearest center.",
+        "You can check the CCC Examination result on the official website of the conducting authority or through other designated channels."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission",
+        "how to apply",
+        "eligibility criteria",
+        "entrance exam"
+      ],
+      "responses": [
+        "For information on admission to NIELIT, please visit the following link: https://www.nielit.gov.in/admission",
+        "Please note that the eligibility criteria and entrance exam requirements may vary depending on the course you are applying for."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses offered",
+        "fee structure",
+        "duration of courses",
+        "placement",
+        "certification"
+      ],
+      "responses": [
+        "NIELIT offers a variety of courses in electronics, information technology, and related fields. For a list of all courses offered, please visit the following link: https://www.nielit.gov.in/courses",
+        "The fee structure for NIELIT courses varies depending on the course and the duration of the course. For more information, please visit the following link: https://www.nielit.gov.in/fee-structure",
+        "The duration of NIELIT courses also varies depending on the course. For more information, please visit the following link: https://www.nielit.gov.in/duration-of-courses",
+        "NIELIT has a good placement record, with many students being placed in top companies. For more information on placement, please visit the following link: https://www.nielit.gov.in/placement",
+        "NIELIT offers certification for all of its courses. Upon successful completion of a course, students will be awarded a certificate from NIELIT."
+      ]
+    },
+    {
+      "tag": "campus-life",
+      "patterns": [
+        "campus life",
+        "facilities",
+        "hostel",
+        "library",
+        "sports"
+      ],
+      "responses": [
+        "NIELIT campuses have a vibrant campus life, with a variety of facilities and activities available to students. These facilities include hostels, libraries, sports facilities, and more.",
+        "For more information on campus life at NIELIT, please visit the following link: https://www.nielit.gov.in/campus-life"
+      ]
+    },
+    {
+      "tag": "contact-us",
+      "patterns": [
+        "contact us",
+        "address",
+        "email",
+        "phone number"
+      ],
+      "responses": [
+        "For more information on NIELIT, please contact us at \nAddress: NIELIT, National Centre for Electronics, Plot. 3, PSP Pocket, Sector-08, Dwarka, New Delhi-110077, India \nEmail: contact@nielit.gov.in\nPhone: 011-25308300"
+      ]
+    }
+  ]
+}
